@@ -1,0 +1,163 @@
+@media (min-width:200px)and (max-width:950px) {
+    header {
+        font-size: 12px;
+    }
+
+    .navlinks {
+        position: absolute;
+        top: 100px;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 250px;
+        display: none;
+        background-color: var(--white);
+        border-top: var(--border);
+        border-bottom: var(--border);
+    }
+
+    .navlinks li {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .navlinks li a {
+        color: var(--black);
+        font-weight: 500;
+    }
+
+    .li1,
+    .li2,
+    .li3,
+    .li4,
+    .li5 {
+        border-bottom: 1px solid #eae5e5;
+    }
+
+    .navlinks li:hover {
+        background-color: var(--white);
+    }
+
+    .navlinks li:hover a {
+        color: var(--black);
+        font-weight: 600;
+        font-size: 20px;
+    }
+
+    .checkbtn {
+        display: block;
+    }
+
+    #check:checked~.navlinks {
+        display: flex;
+    }
+
+     #homecontainer {
+        height: 550px;
+    }
+
+    .heading1 {
+        font-size: 60px;
+        font-weight: 900;
+        padding-top: 29%;
+    }
+
+    .para1 {
+        font-size: 35px;
+        margin-top: 4%;
+    }
+
+    .btn1 {
+        height: 50px;
+        width: 30vh;
+        margin-top: 5.5%;
+    }
+
+    /* .about .img1 {
+        height: 120px;
+        width: 50px;
+
+    }
+
+    #about .heading2 {
+        font-size: 45px;
+        margin-left: 26px;
+        margin-top: 110%;
+    }
+
+    #about .para2 {
+        margin-left: 1px;
+    }
+
+    #about .btn2 {
+        margin-left: 30%;
+        margin-top: 20px;
+        width: 25%;
+    }
+
+    .design1 {
+        margin-left: 15%;
+        margin-top: 20px;
+    }
+
+    .heading3 {
+        font-size: 50px;
+        padding-left: 27%;
+        padding-top: 99%;
+    }
+
+    .content3 .boxcontainer1 .box1 {
+        display: grid;
+    }
+
+    .box1 img {
+        height: 30vh;
+        padding-left: 25%;
+    }
+
+    h4 {
+        font-size: 35px;
+        padding-left: 20%;
+        padding-top: 8px;
+    }
+
+    p {
+        font-size: 23px;
+        padding-top: 9px;
+        padding-left: 7%;
+    }
+    .design2{
+        margin-left: 15%;
+        position: absolute;
+        top: 524%;
+    }
+    .heading4{
+        font-size: 40px;
+        padding-left: 27%;
+        padding-top: 300%;
+    }
+    .design3{
+        position: absolute;
+        top: 884vh;
+        right: 60px;
+    }
+    .heading5{
+        margin-top: 365%;
+        padding-left: 34%;
+    }
+    .boxcontainer3{
+        margin-top: 30px;
+    }
+    .design4{
+        position: absolute;
+        right: 60px;
+        top: 1220vh;
+    }
+    .heading6{
+        margin-top: 365%;
+        padding-left: 34%;
+    }
+}  */
